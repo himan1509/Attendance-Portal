@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "774453701400",
+    "firebase_url": "https://final662ammar.firebaseio.com",
+    "project_id": "final662ammar",
+    "storage_bucket": "final662ammar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774453701400:android:a894ae4e606c12e4",
+        "android_client_info": {
+          "package_name": "com.mmdu.erp.sms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774453701400-8vq3frv0toguspqb1cst0j2hcp7tcu8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mmdu.erp.sms",
+            "certificate_hash": "5dd3b21022c867ff6954a8f76661526bb3a09e2c"
+          }
+        },
+        {
+          "client_id": "774453701400-vskrc91qgqnahj19ooe7r7vcq8rrr069.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfsXez314Ep19FBzzO-99_2nW00_CfhS0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774453701400-vskrc91qgqnahj19ooe7r7vcq8rrr069.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

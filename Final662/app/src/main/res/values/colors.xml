@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Shared Preferences Colors below -->
+
+    <color name="colorPrimary">#e91e25</color>
+    <color name="colorPrimaryDark">#e91e25</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorSlide_1">#049edb</color>
+    <color name="colorSlide_2">#795548</color>
+    <color name="colorSlide_3">#247223</color>
+    <color name="colorSlide_4">#3F51B5</color>
+    <color name="colorSlide_5">#ef3f14</color>
+
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878b</color>
+
+
+
+
+    <!-- mmar Material Design Login Colors Below -->
+
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="redStart">#ff5252</color>
+    <color name="redEnd">#d50000</color>
+
+
+    <!--- Tushar's Color -->
+    <color name="backgroundcolor">#ffffff</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="selected_color">#f60557</color>
+    <color name="selected_color1">#69f605</color>
+    <color name="selected_color2">#2d68ff</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

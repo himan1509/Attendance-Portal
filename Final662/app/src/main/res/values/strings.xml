@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SMS MMDU</string>
+    <string name="slide_1_title">Welcome</string>
+    <string name="slide_1_desc">Developed By B.tech CSE 5th Semester </string>
+
+    <!-- Slide 2 Title and Description -->
+    <string name="slide_2_title">New Look</string>
+    <string name="slide_2_desc">New Way to Track Your Attendance</string>
+
+    <!-- Slide 3 Title and Description -->
+    <string name="slide_3_title">Calendar Wise</string>
+    <string name="slide_3_desc">Know Your statistics in a Brand new Calendar View </string>
+
+    <!-- Slide 4 Title and Description -->
+    <string name="slide_4_title">Done</string>
+    <string name="slide_4_desc">You are Ready to Go</string>
+
+    <string name="something">You are Ready to Go</string>
+
+
+    <!-- Shared Preferences -->
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+
+
+    <!-- String for  date in Login Page-->
+    <string name="pick_date">"Registration Date"</string>
+
+    <string name="deva">DEVANAND SHARMA</string>
+    <string name="himan">HIMANSHU GARG</string>
+    <string name="ammar">AMMAR MAHMADALY</string>
+    <string name="tushar">TUSHAR JAJODIA</string>
+    <string name="about_us_text">
+        This application is developed to ease the process of viewing attendance in Maharishi Markandeshwar (Deemed to be University) by a group
+        of four students of B.tech CSE as their project of 5th Semester.
+
+        Group Members
+        Devanand, Ammar, Himanshu, Tushar.
+    </string>
+    <string name="contact_us">
+        For any query concerning the attendance data shown, please contact ERP Team, ERP cell, Engineering Block-1,
+        Ground Floor, Room No 146, MMDU Mullana.
+        \n\n Phone No: 80599 30916
+    </string>
+
+</resources>

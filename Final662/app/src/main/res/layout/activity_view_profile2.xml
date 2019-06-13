@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/header_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/orange"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="12dp"
+        android:id="@+id/view2"
+        app:cardCornerRadius="50dp"
+        android:layout_below="@+id/header_cover_image"
+        android:layout_marginTop="-60dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:innerRadius="0dp"
+        app:cardElevation="5dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9">
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:srcCompat="@drawable/default_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/view2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:tag="defaultImage">
+
+        </ImageView>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <RelativeLayout
+        android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_cover_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:background="#eeeeee">
+
+        <TextView
+            android:id="@+id/user_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="NAME"
+            android:textColor="#311b92"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rollnoprofile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:textAlignment="viewStart"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="RollNumber"
+            android:fontFamily="serif"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/courseprofile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAlignment="viewStart"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="Course"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/fatherprofile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:textAlignment="viewStart"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="Father's Name"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/emailprofile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAlignment="viewStart"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="Email ID"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
